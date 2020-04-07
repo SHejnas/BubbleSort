@@ -25,16 +25,16 @@ describe('Merge function', function(){
 });
 
 describe('MergeSort function', function() {
-  xit('is able to handle and return empty arrays', function(){
+  it('is able to handle and return empty arrays', function(){
     expect (mergeSort([])).toEqual([])
   });
-  xit('is able to handle and return empty arrays', function(){
+  it('is able to handle and return empty arrays', function(){
     expect (mergeSort([1])).toEqual([1])
   });
-  xit('is able to sort a ', function(){
+  it('is able to sort a ', function(){
     expect (mergeSort([3, 1])).toEqual([1, 3])
   });
-  xit('is able to sort a ', function(){
+  it('is able to sort a ', function(){
     expect (mergeSort([3, 1, 5, 8])).toEqual([1, 3, 5, 8])
   });
   it('is able to sort a ', function(){
